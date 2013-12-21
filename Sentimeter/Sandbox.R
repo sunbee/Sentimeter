@@ -13,6 +13,7 @@ nameFolder = paste(root, "pinucont", sep="/")
 nameShape = paste(nameFolder, "pinucont.shp", sep="/")
 namePoints = paste(nameFolder, "FieldSamples.csv", sep="/")
 
+
 s <- readShapePoly(nameShape) 
 p <- read.csv(namePoints)
 
