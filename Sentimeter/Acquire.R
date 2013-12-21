@@ -21,8 +21,9 @@ reqURL <- "https://api.twitter.com/oauth/request_token";
 accessURL <- "http://api.twitter.com/oauth/access_token";
 authURL <- "http://api.twitter.com/oauth/authorize";
  
-consumerKey <- "Wrusx6GpcDi3XCUsJHTjYw";
-consumerSecret <- "OFdbRUwFWjWIYzQjvnQfu95GVQBGK2fMwf7vfv2A8";
+consumerKey <- "Put your data in Bin/twitterKeys.R";
+consumerSecret <- "Put your data in Bin/twitterKeys.R";
+source(paste(getwd(), "Sentimeter", "Bin", "twitterKeys.R" , sep='/'))
  
 twitCred <- OAuthFactory$new(
 			consumerKey		= consumerKey,
